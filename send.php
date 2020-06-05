@@ -52,7 +52,7 @@ if ( ! isset($_POST['email']) ) {
 // Construimos el mensaje
 $to = 'judith@henribarrett.com';
 $reply1 = 'hola@henribarrett.com';
-$reply2 = 'FOCUS-GROUP';
+$reply2 = 'hola@henribarrett.com';
 $user_email = $_POST['email'];
 $subject1 = 'Conversatorio virtual - UNIDOS UNIDOS SALIMOS DE ESTA';
 $subject2 = 'REGISTRADOS A UNIDOS SALIMOS DE ESTA';
