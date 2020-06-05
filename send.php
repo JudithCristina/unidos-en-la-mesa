@@ -57,10 +57,10 @@ $user_email = $_POST['email'];
 $subject1 = 'Conversatorio virtual - UNIDOS UNIDOS SALIMOS DE ESTA';
 $subject2 = 'REGISTRADOS A UNIDOS SALIMOS DE ESTA';
 
-$message1 = '<div><table style="max-width: 600px; padding: 10px; margin:0 auto; border-collapse: collapse; background-color: black;">
+$message1 = '    <table style="max-width: 600px; padding: 10px; margin:0 auto; border-collapse: collapse; background-color: black;">
 <tr>
-    <td style=" text-align: centerleft; padding: 0">
-            <img width="70%" style="display:block; margin: auto" src="https://www.henribarrett.com/unidos-en-la-mesa/img/banner-web.png">
+    <td style=" text-align: left; padding-top: 2rem;">
+            <img width="70%" style="display:block; margin: auto" src="https://www.henribarrett.com/banner.png">
     </td>
 </tr>
 
@@ -69,25 +69,23 @@ $message1 = '<div><table style="max-width: 600px; padding: 10px; margin:0 auto; 
         <div style="color: #34495e; margin: 4% 10% 2%; text-align: justify;font-family: sans-serif">
             <h2 style="color: #c4a330; text-align: center;">¡Confirmamos tu participación!</h2>
             <p style="text-align: center; font-size: 0.8rem; color:white; font-weight: 700;font-style: italic; ">
-                ESTE LUNES 08 DE JUNIO A LAS 5:30 P.M. A 6:30 P.M. <br> PODRÁS ACCEDER AL WEBINAR DÁNDOLE CLICK A ESTE BOTÓN.  </p>
+                ESTE LUNES 08 DE JUNIO A LAS 5:30 P.M. A 6:30 P.M.</p>
                 <div style="width: 100%; text-align: center;margin-top: 2rem; margin-bottom: 2rem;">
-                    <a style="text-decoration: none; border-radius: 5px; padding: 11px 23px; color: white; background-color: #c4a330;font-weight: 800" href="https://www.henribarrett.com">ÚNETE AQUÍ</a>	
+                    <a href="https://calendar.google.com/calendar/ical/7lgoksam4iiidl5bs733no569c%40group.calendar.google.com/public/basic.ics"><img border="0" src="https://www.henribarrett.com/boton.png"></a>
                 </div>
-                <p style="text-align: center; font-size: 0.8rem; color:white; font-weight: 700;font-style: italic; ">
-                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae praesentium odit consectetur? Ratione, praesentium. Aspernatur, praesentium cumque. Eveniet eum earum ullam fugit fuga consectetur, rem et consequatur culpa animi temporibus.</p>
                    <hr>
         </div>
     </td>
 </tr>
     
 <tr>
-    <td style="padding: 0">
-        <img style="padding: 0; display: block; margin: auto;" src="https://www.henribarrett.com/unidos-en-la-mesa/img/henri.svg" width="50%">
+    <td style="padding-bottom: 2rem;">
+        <img style="padding: 0; display: block; margin: auto;" src="https://www.henribarrett.com/hb-logo.png" width="50%">
     </td>
 </tr>
 
-</table></div><iframe src="https://calendar.google.com/calendar/b/1/embed?height=600&amp;wkst=1&amp;bgcolor=%23F6BF26&amp;ctz=America%2FLima&amp;src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;src=ZXMucGUjaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%2333B679&amp;color=%230B8043" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>';
-$message2 = '<div> <h3>Hay una persona que se ha registrado a UNIDOS SALIMOS DE ESTA.</h3><table> <tr><td>Nombre: </td><td>' . $_POST['name'] . '</td></tr><tr><td>Email: </td><td>' . $_POST['email'] . '</td></tr><tr><td>Teléfono: </td><td>' . $_POST['telefono'] . '</td></tr><tr><td>Edad: </td><td>' . $_POST['edad'] . '</td></tr><tr><td>Sexo: </td><td>' . $_POST['sexo'] . '</td></tr><tr><td>Ocupación: </td><td>' . $_POST[''] . '</td></tr></table></div>';
+</table>';
+$message2 = '<div> <h3>Hay una persona que se ha registrado a UNIDOS SALIMOS DE ESTA.</h3><table> <tr><td>Nombre: </td><td>' . $_POST['name'] . '</td></tr><tr><td>Email: </td><td>' . $_POST['email'] . '</td></tr><tr><td>Teléfono: </td><td>' . $_POST['telefono'] . '</td></tr><tr><td>Edad: </td><td>' . $_POST['edad'] . '</td></tr><tr><td>Sexo: </td><td>' . $_POST['sexo'] . '</td></tr><tr><td>Ocupación: </td><td>' . $_POST['empres'] . '</td></tr></table></div>';
 
 
 echo '<!DOCTYPE html>
