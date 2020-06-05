@@ -27,15 +27,15 @@ html {
     
 }
 .section-landing h1{
-    font-family: "gotham";
-    text-transform: uppercase;
-    font-size: 1.66rem;
-    padding-top: 4.04rem;
-    padding-bottom: 1rem;
-    text-align: center;
-    line-height: 1.94rem;
-    width: 50.81rem;
-    margin: auto
+  font-family: "gotham";
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  padding-top: 4.04rem;
+  padding-bottom: 1rem;
+  text-align: center;
+  line-height: 1.94rem;
+  width: 92%;
+  margin: auto;
 }
 .inscribete{
     height: 7.37rem;
