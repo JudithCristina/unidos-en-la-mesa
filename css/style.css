@@ -251,7 +251,16 @@ input:focus {
   cursor: pointer;
   align-self: center;
 }
+.style-radio input + .radio + .text-sexo {
+  color: #c4a330;
+  cursor: pointer;
+  align-self: center;
+}
 .style-radio input:checked + .radio + .text {
+  color: rgb(196, 163, 48);
+  cursor: default;
+}
+.style-radio input:checked + .radio + .text-sexo {
   color: rgb(196, 163, 48);
   cursor: default;
 }
@@ -264,6 +273,18 @@ input:focus {
   /* font-weight: bold; */
   font-size: 1.18rem;
   line-height: 2.05rem;
+}
+
+.style-radio .text-sexo{
+  color: #c4a430a8;
+  cursor: pointer;
+  /* margin-right: 10px; */
+  font-family: "gotham";
+  font-style: normal;
+  /* font-weight: bold; */
+  font-size: 1.5rem;
+  line-height: 2.05rem;
+
 }
 .letter-register{
   font-family: "gotham";
@@ -358,8 +379,17 @@ label{
         padding: 1px 0px;
         border: 0.11rem solid #c4a330;
       }
+      
+      .letra-soy{
+        font-size: 1.08rem;
+        line-height: 1.32rem;
+      }
 
       .style-radio .text {
+        font-size: 0.9rem;
+        line-height: 1.32rem;
+      }
+      .style-radio .text-sexo {
         font-size: 0.9rem;
         line-height: 1.32rem;
       }
