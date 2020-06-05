@@ -50,15 +50,67 @@ if ( ! isset($_POST['email']) ) {
 }
 
 // Construimos el mensaje
-$to = 'narda@henribarrett.com';
+$to = 'judith@henribarrett.com';
 $reply1 = 'hola@henribarrett.com';
 $reply2 = 'FOCUS-GROUP';
 $user_email = $_POST['email'];
 $subject1 = 'Conversatorio virtual - UNIDOS UNIDOS SALIMOS DE ESTA';
 $subject2 = 'REGISTRADOS A UNIDOS SALIMOS DE ESTA';
 
-$message1 = '<div> <h3> &#128079; Hola ' . $_POST['name'] . ', te inscribiste correctamente pronto nos estaremos comunicando contigo.</h3></div<div style="width: 100%; margin: 0 auto;"><img src="https://www.henribarrett.com/banner.png" alt=""></div><div ><a href="https://calendar.google.com/calendar/ical/7lgoksam4iiidl5bs733no569c%40group.calendar.google.com/public/basic.ics"><img border="0" src="https://www.henribarrett.com/boton.png"></a></div>';
-$message2 = '<div> <h3>Hay una persona que se ha registrado a UNIDOS SALIMOS DE ESTA.</h3><table> <tr><td>Nombre: </td><td>' . $_POST['name'] . '</td></tr><tr><td>Email: </td><td>' . $_POST['email'] . '</td></tr><tr><td>Empresa: </td><td>' . $_POST['empresa'] . '</td></tr></table></div>';
+$message1 = '<table style="max-width: 600px; padding: 10px; margin:0 auto; border-collapse: collapse; background-color: black;">
+<tr>
+    <td style=" text-align: left; padding-top: 2rem;">
+            <img width="70%" style="display:block; margin: auto" src="https://www.henribarrett.com/banner.png">
+    </td>
+</tr>
+
+<tr>
+    <td style="">
+        <div style="color: #34495e; margin: 4% 10% 2%; text-align: justify;font-family: sans-serif">
+            <h2 style="color: #c4a330; text-align: center;">¡Hola ' . $_POST['name'] . '  Confirmamos tu  participación!</h2>
+            <p style="text-align: center; font-size: 0.8rem; color:white; font-weight: 700;font-style: italic; ">
+                ESTE LUNES 08 DE JUNIO A LAS 5:30 P.M. A 6:30 P.M.</p>
+                   <hr>
+        </div>
+    </td>
+</tr>
+    
+<tr>
+    <td style="padding-bottom: 2rem;">
+        <img style="padding: 0; display: block; margin: auto;" src="https://www.henribarrett.com/hb-logo.png" width="50%">
+    </td>
+</tr>
+
+</table>';
+$message3 = '<table style="max-width: 600px; padding: 10px; margin:0 auto; border-collapse: collapse; background-color: black;">
+<tr>
+    <td style=" text-align: left; padding-top: 2rem;">
+            <img width="70%" style="display:block; margin: auto" src="https://www.henribarrett.com/banner.png">
+    </td>
+</tr>
+
+<tr>
+    <td style="">
+        <div style="color: #34495e; margin: 4% 10% 2%; text-align: justify;font-family: sans-serif">
+            <h2 style="color: #c4a330; text-align: center;">¡ Confirmamos tu  participación!</h2>
+            <p style="text-align: center; font-size: 0.8rem; color:white; font-weight: 700;font-style: italic; ">
+                ESTE MARTES 09 DE JUNIO A LAS 5:30 P.M. A 6:30 P.M.</p>
+                <div style="width: 100%; text-align: center;margin-top: 2rem; margin-bottom: 2rem;">
+                    <a href="https://calendar.google.com/calendar/ical/7lgoksam4iiidl5bs733no569c%40group.calendar.google.com/public/basic.ics"><img border="0" src="https://www.henribarrett.com/boton.png"></a>
+                </div>
+                   <hr>
+        </div>
+    </td>
+</tr>
+    
+<tr>
+    <td style="padding-bottom: 2rem;">
+        <img style="padding: 0; display: block; margin: auto;" src="https://www.henribarrett.com/hb-logo.png" width="50%">
+    </td>
+</tr>
+
+</table>';
+$message2 = '<div> <h3>Hay una persona que se ha registrado a UNIDOS SALIMOS DE ESTA.</h3><table> <tr><td>Nombre: </td><td>' . $_POST['name'] . '</td></tr><tr><td>Email: </td><td>' . $_POST['email'] . '</td></tr><tr><td>Teléfono: </td><td>' . $_POST['telefono'] . '</td></tr><tr><td>Edad: </td><td>' . $_POST['edad'] . '</td></tr><tr><td>Sexo: </td><td>' . $_POST['sexo'] . '</td></tr><tr><td>Ocupación: </td><td>' . $_POST['ocupacion'] . '</td></tr></table></div>';
 
 
 echo '<!DOCTYPE html>
@@ -66,7 +118,7 @@ echo '<!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Refresh" content="4;url=https://www.henribarrett.com/prueba">
+    <meta http-equiv="Refresh" content="4;url=https://www.henribarrett.com/unidos-en-la-mesa/">
     <link  rel="icon"   href="img/favicon.jpeg" type="image/jpeg" />
     <title>Estas Registrado</title>
     <style>
@@ -149,15 +201,21 @@ echo '<!DOCTYPE html>
                 por participar!
             </h1>
             <img src="img/linea.svg" alt="">
-            <h2>En breve le llegará una confirmación a tu correo.</h2>
+            <h2>En breve le llegará una confirmación a su correo.</h2>
         </div>
     </section>
 </body>
 </html>';
 
+if($_POST['ocupacion']==="consumidor"){
+    send_email($reply1, $user_email, $subject1, $message1);
+} else {
+    send_email($reply1, $user_email, $subject1, $message3);
+}
 
-send_email($reply1, $user_email, $subject1, $message1);
 send_email($reply2, $to, $subject2, $message2);
 
 
+
 ?>
+
