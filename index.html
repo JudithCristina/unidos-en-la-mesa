@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/animacion.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <title>Unidos salimos de esta</title>
 </head>
 
@@ -31,22 +32,78 @@
                 <figure class="inscribete "></figure>
                 <!-- Begin Mailchimp Signup Form -->
 
-                <form action="send.php" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
+                <div class="column">
+                    <form action="send.php" class="formulario"  method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
                     class="validate">
                     <div class="box-input fade-in">
                         <div id="mc_embed_signup_scroll">
-                            <div class="mc-field-group">
-                                <input type="text" value="" name="name" class="input-style" id="name"
-                                    placeholder="NOMBRES Y APELLIDOS" required autofocus />
+                            <div class="row">
+                                <div class="col-sm-12 col-md-12	col-lg-12 col-xl-12">
+                                    <div class="mc-field-group">
+                                        <input type="text" value="" name="name" class="input-style w-100" id="name"
+                                            placeholder="NOMBRES Y APELLIDOS" required autofocus />
+                                    </div>
+                                </div>
                             </div>
-                            <div class="mc-field-group">
-                                <input type="email" value="" name="email" class="input-style" id="email"
-                                    placeholder="EMAIL" required />
+                            <div class="row">
+                                <div class="col-sm-12 col-md-12	col-lg-6 col-xl-6">
+                                    <div class="mc-field-group">
+                                        <input type="text" value="" name="sexo" class="input-style  input-sexo w-100" id="sexo"
+                                            placeholder="SEXO" required />
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-12	col-lg-6 col-xl-6">
+                                    <div class="mc-field-group">
+                                        <input type="number" value="" name="edad" class="input-style  input-edad w-100" id="edad"
+                                            placeholder="EDAD" required />
+                                    </div>
+                                </div>
                             </div>
-                            <div class="mc-field-group">
-                                <input type="text" value="" name="empresa" class="input-style" id="empresa"
-                                    placeholder="EMPRESA DONDE LABORA" required />
+                           <div  class="row">
+                            <div class="col-sm-12 col-md-12	col-lg-6 col-xl-6">
+                                <div class="mc-field-group">
+                                    <input type="email" value="" name="email" class="input-style w-100" id="email"
+                                        placeholder="EMAIL" required />
+                                </div>
                             </div>
+                            <div class="col-sm-12 col-md-12	col-lg-6 col-xl-6">
+                                <div class="mc-field-group">
+                                    <input type="tel" value="" name="Teléfono" class="input-style w-100" id="telefono"
+                                        placeholder="TELÉFONO" required />
+                                </div>
+                            </div>
+                           </div>
+                          <div class="box-radio">
+                            <div class="row">
+                             
+                                <div class="col-sm-12 col-md-12 col-lg-1 col-xl-1">
+                                    <p class="letter-register">SOY:</p>
+                                </div>
+                                <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                                    <label class="style-radio">
+                                        <input
+                                          type="radio"
+                                          name="ocupacion"
+                                          value="Dueño de restaurante"
+                                        />
+                                        <span class="radio">.</span>
+                                        <span class="text">DUEÑO DE RESTAURANTE</span>
+                                      </label>
+                                </div>
+                                <div class="col-sm-12 col-md-12 col-lg-5 col-xl-5">
+                                    <label class="style-radio">
+                                        <input
+                                          type="radio"
+                                          name="ocupacion"
+                                          value="consumidor"
+                                        />
+                                        <span class="radio"> .</span>
+                                        <span class="text">CONSUMIDOR</span>
+                                       </label>
+                                </div>
+                             
+                          </div>
+                          </div>
                             <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
                             <div class="div-button ">
                                 <button type="submit" name="subscribe" id="mc-embedded-subscribe"
@@ -55,6 +112,7 @@
                         </div>
                     </div>
                 </form>
+                </div>
 
 
                 <!--End mc_embed_signup-->
@@ -72,6 +130,9 @@
 </body>
 <!-- Facebook Pixel Code -->
 <script src="main.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
 <noscript><img height="1" width="1" style="display:none"
         src="https://www.facebook.com/tr?id=739160373528201&ev=PageView&noscript=1" /></noscript>
