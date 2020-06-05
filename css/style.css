@@ -9,7 +9,7 @@ html {
 
 .bg-image{
     width: 100vw;
-    height: 85.3rem;
+    height: 89.8rem;
     background-image: url('../img/bg_img.png');
     background-size:  cover;
     background-repeat: no-repeat;
@@ -52,7 +52,7 @@ html {
   }
   .box-input input {
     margin: auto;
-    margin-top: 1.2rem;
+    margin-top: .7rem;
     height: 2.88rem;
     cursor: pointer
   }
@@ -140,24 +140,24 @@ html {
     font-size: 1.6rem;
     line-height: 2.05rem;
     padding: 1px 0px;
-    border: 0.11rem solid #c4a330;
+    border: 0.15rem solid #c4a330;
   }
   ::-webkit-input-placeholder {
     /* WebKit, Blink, Edge */
-    color: #c4a430a8;
+    color: #c4a330;
   }
   :-moz-placeholder {
     /* Mozilla Firefox 4 to 18 */
-    color: #c4a430a8;
+    color: #c4a330;
     opacity: 1 /* esto es porque Firefox le reduce la opacidad por defecto */;
   }
   ::-moz-placeholder {
     /* Mozilla Firefox 19+ */
-    color: #c4a430a8;
+    color: #c4a330;
   }
   :-ms-input-placeholder {
     /* Internet Explorer 10-11 */
-    color: #c4a430a8;
+    color: #c4a330;
   }
 
 .ideas{
@@ -188,8 +188,8 @@ input:focus {
 
 .style-radio {
   height: 28px;
-  position: relative;
-  align-items: center;
+  display: flex;
+    align-items: center;
 }
 
 .style-radio input {
@@ -210,7 +210,7 @@ input:focus {
   width: 25px;
   border-radius: 5px;
   margin-right: 5px;
-  border: 0.2rem solid #c4a430af;
+  border: 0.2rem solid #c4a330;
   background-color: #ffffff;
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1);
   cursor: pointer;
@@ -247,7 +247,7 @@ input:focus {
   box-shadow: 1px 2px 2px 0 rgb(196, 163, 48);
 }
 .style-radio input + .radio + .text {
-  color: #c4a430a8;
+  color: #c4a330;
   cursor: pointer;
   align-self: center;
 }
@@ -258,11 +258,11 @@ input:focus {
 .style-radio .text {
   color: #c4a430a8;
   cursor: pointer;
-  margin-right: 10px;
+  /* margin-right: 10px; */
   font-family: "gotham";
   font-style: normal;
   /* font-weight: bold; */
-  font-size: 1.25rem;
+  font-size: 1.18rem;
   line-height: 2.05rem;
 }
 .letter-register{
@@ -272,18 +272,41 @@ input:focus {
   font-size: 1.25rem;
   line-height: 2.05rem;
   color: rgb(196, 163, 48);
-
+}
+.letra-soy{
+  font-family: "gotham";
+  font-style: normal;
+  color: #c4a330;
+  font-size: 1.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1rem;
+  text-align: center
 }
 
 .box-radio{
-  margin-top: 1.2rem;
-  padding: 1rem 0.5rem 0.3rem 0.5rem;
-  border: 0.11rem solid #c4a330;
+  margin-top: .7rem;
+  padding: .5rem 0.5rem 0.5rem 0.5rem;
+  border: 0.15rem solid #c4a330;
 }
 
 label{
   margin-bottom: 0!important;
 }
+.box-check-soy{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+}
+
+.p-l-0{
+  padding-left: 6px!important;
+}
+.p-r-0{
+  padding-right: 6px!important;
+}
+
 @media (max-width: 768px) {
     html {
       font-size: 4.6vw;
@@ -375,5 +398,15 @@ label{
     p{
       margin-bottom: 0.5rem!important;
     }
+    .p-l-0{
+      padding-left: 15px!important;
+    }
+    .p-r-0{
+      padding-right: 15px!important;
+    }
+    .box-check-soy {
+      width: 110%;
+ 
+  }
     
 }
