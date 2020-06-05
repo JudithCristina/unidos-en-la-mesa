@@ -69,8 +69,12 @@ $message1 = '<table style="max-width: 600px; padding: 10px; margin:0 auto; borde
         <div style="color: #34495e; margin: 4% 10% 2%; text-align: justify;font-family: sans-serif">
             <h2 style="color: #c4a330; text-align: center;">¡Hola ' . $_POST['name'] . '  Confirmamos tu  participación!</h2>
             <p style="text-align: center; font-size: 0.8rem; color:white; font-weight: 700;font-style: italic; ">
-                ESTE LUNES 08 DE JUNIO A LAS 5:30 P.M. A 6:30 P.M.</p>
-                   <hr>
+                ESTE LUNES 08 DE JUNIO A LAS 5:30 P.M. A 6:30 P.M.
+            </p>
+            <div style="width: 100%; text-align: center;margin-top: 2rem; margin-bottom: 2rem;">
+                <a style="text-decoration: none; border-radius: 5px; padding: 11px 23px; color: white; background-color: #c4a330;font-weight: 800" href="https://www.henribarrett.com">ÚNETE AQUÍ</a>	
+            </div>
+            <hr>
         </div>
     </td>
 </tr>
@@ -92,13 +96,15 @@ $message3 = '<table style="max-width: 600px; padding: 10px; margin:0 auto; borde
 <tr>
     <td style="">
         <div style="color: #34495e; margin: 4% 10% 2%; text-align: justify;font-family: sans-serif">
-            <h2 style="color: #c4a330; text-align: center;">¡ Confirmamos tu  participación!</h2>
+        <h2 style="color: #c4a330; text-align: center;">¡Hola ' . $_POST['name'] . '  Confirmamos tu  participación!</h2>
+
             <p style="text-align: center; font-size: 0.8rem; color:white; font-weight: 700;font-style: italic; ">
-                ESTE MARTES 09 DE JUNIO A LAS 5:30 P.M. A 6:30 P.M.</p>
-                <div style="width: 100%; text-align: center;margin-top: 2rem; margin-bottom: 2rem;">
-                    <a href="https://calendar.google.com/calendar/ical/7lgoksam4iiidl5bs733no569c%40group.calendar.google.com/public/basic.ics"><img border="0" src="https://www.henribarrett.com/boton.png"></a>
-                </div>
-                   <hr>
+                ESTE MARTES 09 DE JUNIO A LAS 5:30 P.M. A 6:30 P.M.
+            </p>
+            <div style="width: 100%; text-align: center;margin-top: 2rem; margin-bottom: 2rem;">
+                <a style="text-decoration: none; border-radius: 5px; padding: 11px 23px; color: white; background-color: #c4a330;font-weight: 800" href="https://www.henribarrett.com">ÚNETE AQUÍ</a>	
+            </div>
+            <hr>
         </div>
     </td>
 </tr>
