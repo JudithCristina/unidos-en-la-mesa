@@ -60,7 +60,7 @@ $subject2 = 'JUNTOS EN ESTA NUEVA ERA';
 $message1 = '<table style="max-width: 600px; padding: 10px; margin:0 auto; border-collapse: collapse; background-color: black;">
 <tr>
     <td style=" text-align: left; padding-top: 2rem;">
-            <img width="70%" style="display:block; margin: auto" src="https://www.henribarrett.com/banner.png">
+            <img width="70%" style="display:block; margin: auto" src="https://www.henribarrett.com/banner-mail.png">
     </td>
 </tr>
 
@@ -89,7 +89,7 @@ $message1 = '<table style="max-width: 600px; padding: 10px; margin:0 auto; borde
 $message3 = '<table style="max-width: 600px; padding: 10px; margin:0 auto; border-collapse: collapse; background-color: black;">
 <tr>
     <td style=" text-align: left; padding-top: 2rem;">
-            <img width="70%" style="display:block; margin: auto" src="https://www.henribarrett.com/banner.png">
+            <img width="70%" style="display:block; margin: auto" src="https://www.henribarrett.com/banner-mail.png">
     </td>
 </tr>
 
@@ -102,7 +102,7 @@ $message3 = '<table style="max-width: 600px; padding: 10px; margin:0 auto; borde
                 ESTE MARTES 09 DE JUNIO A LAS 5:30 P.M. A 6:30 P.M.
             </p>
             <div style="width: 100%; text-align: center;margin-top: 2rem; margin-bottom: 2rem;">
-                <a style="text-decoration: none; border-radius: 5px; padding: 11px 23px; color: white; background-color: #c4a330;font-weight: 800" href="https://www.henribarrett.com">ÚNETE AQUÍ</a>	
+                <a style="text-decoration: none; border-radius: 5px; padding: 11px 23px; color: white; background-color: #c4a330;font-weight: 800" href="meet.google.com/psn-qotq-owa">ÚNETE AQUÍ</a>	
             </div>
             <hr>
         </div>
