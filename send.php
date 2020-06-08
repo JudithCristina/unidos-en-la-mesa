@@ -50,12 +50,12 @@ if ( ! isset($_POST['email']) ) {
 }
 
 // Construimos el mensaje
-$to = 'judith@henribarrett.com';
+$to = 'narda@henribarrett.com';
 $reply1 = 'hola@henribarrett.com';
-$reply2 = 'hola@henribarrett.com';
+$reply2 = 'FOCUS-GROUP';
 $user_email = $_POST['email'];
-$subject1 = 'Conversatorio virtual - UNIDOS UNIDOS SALIMOS DE ESTA';
-$subject2 = 'REGISTRADOS A UNIDOS SALIMOS DE ESTA';
+$subject1 = 'Conversatorio virtual - JUNTOS EN ESTA NUEVA ERA';
+$subject2 = 'JUNTOS EN ESTA NUEVA ERA';
 
 $message1 = '<table style="max-width: 600px; padding: 10px; margin:0 auto; border-collapse: collapse; background-color: black;">
 <tr>
@@ -72,7 +72,7 @@ $message1 = '<table style="max-width: 600px; padding: 10px; margin:0 auto; borde
                 ESTE LUNES 08 DE JUNIO A LAS 5:30 P.M. A 6:30 P.M.
             </p>
             <div style="width: 100%; text-align: center;margin-top: 2rem; margin-bottom: 2rem;">
-                <a style="text-decoration: none; border-radius: 5px; padding: 11px 23px; color: white; background-color: #c4a330;font-weight: 800" href="https://www.henribarrett.com">ÚNETE AQUÍ</a>	
+                <a style="text-decoration: none; border-radius: 5px; padding: 11px 23px; color: white; background-color: #c4a330;font-weight: 800" href="meet.google.com/pxi-iyka-hmb">ÚNETE AQUÍ</a>	
             </div>
             <hr>
         </div>
@@ -124,7 +124,7 @@ echo '<!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Refresh" content="4;url=https://www.henribarrett.com/unidos-en-la-mesa/">
+    <meta http-equiv="Refresh" content="4;url=https://www.henribarrett.com/conversatorio">
     <link  rel="icon"   href="img/favicon.jpeg" type="image/jpeg" />
     <title>Estas Registrado</title>
     <style>
