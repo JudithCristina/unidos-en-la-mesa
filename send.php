@@ -57,10 +57,10 @@ $user_email = $_POST['email'];
 $subject1 = 'Conversatorio virtual - JUNTOS EN ESTA NUEVA ERA';
 $subject2 = 'JUNTOS EN ESTA NUEVA ERA';
 
-$message1 = '<table style="max-width: 600px; padding: 10px; margin:0 auto; border-collapse: collapse; background-color: black;">
+$message1 = '  <table style="max-width: 600px; padding: 10px; margin:0 auto; border-collapse: collapse; background-color: black;">
 <tr>
     <td style=" text-align: left; padding-top: 2rem;">
-            <img width="70%" style="display:block; margin: auto" src="https://www.henribarrett.com/banner.png">
+            <img width="70%" style="display:block; margin: auto" src="https://www.henribarrett.com/banner-mail.png">
     </td>
 </tr>
 
@@ -68,12 +68,18 @@ $message1 = '<table style="max-width: 600px; padding: 10px; margin:0 auto; borde
     <td style="">
         <div style="color: #34495e; margin: 4% 10% 2%; text-align: justify;font-family: sans-serif">
             <h2 style="color: #c4a330; text-align: center;">¡Hola ' . $_POST['name'] . '  Confirmamos tu  participación!</h2>
-            <p style="text-align: center; font-size: 0.8rem; color:white; font-weight: 700;font-style: italic; ">
-                ESTE LUNES 08 DE JUNIO A LAS 5:30 P.M. A 6:30 P.M.
+            <p style="text-align: center; font-size: 0.8rem; color:white; font-weight: 700;font-style: italic;">
+                ESTE LUNES 08 DE JUNIO A LAS 5:30 P.M. PODRÁS ACCEDER AL CONVERSATORIO DÁNDOLE CLICK A ESTE BOTÓN. 
             </p>
             <div style="width: 100%; text-align: center;margin-top: 2rem; margin-bottom: 2rem;">
-                <a style="text-decoration: none; border-radius: 5px; padding: 11px 23px; color: white; background-color: #c4a330;font-weight: 800" href="meet.google.com/pxi-iyka-hmb">ÚNETE AQUÍ</a>	
+            <a style="text-decoration: none; border-radius: 5px; padding: 11px 23px; color: white; background-color: #c4a330;font-weight: 800;" href="meet.google.com/pxi-iyka-hmb">ÚNETE AQUÍ</a>	
             </div>
+            <p style="text-align: center; font-size: 0.8rem; color:white; font-weight: 700;font-style: italic;">
+                Este conversatorio se realizará a través de Google Meet, recomendamos ingresar unos minutos antes para probar Audio. Esperamos contar con tu presencia. 
+            </p>
+            <p style="text-align: center; font-size: 0.7rem; color:white; font-weight: 700;font-style: italic;">
+                Para mas información puedes escribir a <a href="mailto:hola@henribarrett.com">hola@henribarrett.com</a> o a través de nuestras redes sociales.
+            </p>
             <hr>
         </div>
     </td>
@@ -86,24 +92,29 @@ $message1 = '<table style="max-width: 600px; padding: 10px; margin:0 auto; borde
 </tr>
 
 </table>';
-$message3 = '<table style="max-width: 600px; padding: 10px; margin:0 auto; border-collapse: collapse; background-color: black;">
+$message3 = '  <table style="max-width: 600px; padding: 10px; margin:0 auto; border-collapse: collapse; background-color: black;">
 <tr>
     <td style=" text-align: left; padding-top: 2rem;">
-            <img width="70%" style="display:block; margin: auto" src="https://www.henribarrett.com/banner.png">
+            <img width="70%" style="display:block; margin: auto" src="https://www.henribarrett.com/banner-mail.png">
     </td>
 </tr>
 
 <tr>
     <td style="">
         <div style="color: #34495e; margin: 4% 10% 2%; text-align: justify;font-family: sans-serif">
-        <h2 style="color: #c4a330; text-align: center;">¡Hola ' . $_POST['name'] . '  Confirmamos tu  participación!</h2>
-
-            <p style="text-align: center; font-size: 0.8rem; color:white; font-weight: 700;font-style: italic; ">
-                ESTE MARTES 09 DE JUNIO A LAS 5:30 P.M. A 6:30 P.M.
+            <h2 style="color: #c4a330; text-align: center;">¡Hola ' . $_POST['name'] . '  Confirmamos tu  participación!</h2>
+            <p style="text-align: center; font-size: 0.8rem; color:white; font-weight: 700;font-style: italic;">
+                ESTE MARTES 09 DE JUNIO A LAS 5:30 P.M. PODRÁS ACCEDER AL CONVERSATORIO DÁNDOLE CLICK A ESTE BOTÓN. 
             </p>
             <div style="width: 100%; text-align: center;margin-top: 2rem; margin-bottom: 2rem;">
-                <a style="text-decoration: none; border-radius: 5px; padding: 11px 23px; color: white; background-color: #c4a330;font-weight: 800" href="https://www.henribarrett.com">ÚNETE AQUÍ</a>	
+            <a style="text-decoration: none; border-radius: 5px; padding: 11px 23px; color: white; background-color: #c4a330;font-weight: 800;" href="meet.google.com/psn-qotq-owa">ÚNETE AQUÍ</a>	
             </div>
+            <p style="text-align: center; font-size: 0.8rem; color:white; font-weight: 700;font-style: italic;">
+                Este conversatorio se realizará a través de Google Meet, recomendamos ingresar unos minutos antes para probar Audio. Esperamos contar con tu presencia. 
+            </p>
+            <p style="text-align: center; font-size: 0.7rem; color:white; font-weight: 700;font-style: italic;">
+                Para mas información puedes escribir a <a href="mailto:hola@henribarrett.com">hola@henribarrett.com</a> o a través de nuestras redes sociales.
+            </p>
             <hr>
         </div>
     </td>
