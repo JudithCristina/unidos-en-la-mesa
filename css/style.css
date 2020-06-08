@@ -9,7 +9,7 @@ html {
 
 .bg-image{
     width: 100vw;
-    height: 89.8rem;
+    height: 91.45rem;
     background-image: url('../img/bg_img.png');
     background-size:  cover;
     background-repeat: no-repeat;
@@ -326,6 +326,17 @@ label{
 }
 .p-r-0{
   padding-right: 6px!important;
+}
+
+
+.color-red p{
+  color: red;
+  font-family: "gotham";
+  font-style: normal;
+  font-size: .8rem;
+  line-height: 1rem!important;
+  margin-top: 1rem
+
 }
 
 @media (max-width: 768px) {
